@@ -24,7 +24,7 @@ git clone https://github.com/jayjadhav114/task-tracker.git
 cd task-tracker
 npm install
 npm start
-
+```
 ###  Screenshots
 
 ###  Light mode
