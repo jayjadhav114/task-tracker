@@ -13,7 +13,7 @@ A simple personal task management app built with React. Users can login, add/edi
 - 📱 Responsive Design
 
 ## 🔗 Live Demo
-[Click to view the deployed app](https://your-site-name.netlify.app)
+[Click to view the deployed app](https://funny-duckanoo-25cfaa.netlify.app/)
 
 _Replace this link with your real Netlify link_
 
