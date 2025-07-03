@@ -66,7 +66,8 @@ button {
 }
 
 .task-input,
-.task-description {
+.task-description,
+.task-input[type="date"] {
   width: 100%;
   padding: 10px 14px;
   font-size: 1rem;
@@ -84,7 +85,8 @@ button {
 }
 
 .dark .task-input,
-.dark .task-description {
+.dark .task-description,
+.dark .task-input[type="date"] {
   background-color: #1e1e1e;
   color: white;
   border: 1px solid #444;

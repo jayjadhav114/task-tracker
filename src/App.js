@@ -11,13 +11,11 @@ function App() {
   const [filter, setFilter] = useState('All');
   const [darkMode, setDarkMode] = useState(true); // Default to dark mode
 
-  // Load tasks from localStorage
   useEffect(() => {
     const storedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
     setTasks(storedTasks);
   }, []);
 
-  // Save tasks to localStorage
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
@@ -27,11 +25,12 @@ function App() {
     localStorage.setItem('username', usernameInput);
   };
 
-  const handleAddTask = (title, description) => {
+  const handleAddTask = (title, description, dueDate) => {
     const newTask = {
       id: Date.now(),
       title,
       description,
+      dueDate, 
       completed: false,
       createdAt: new Date().toISOString(),
     };
