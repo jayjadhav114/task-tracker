@@ -15,12 +15,20 @@ A simple personal task management app built with React. Users can login, add/edi
 ## 🔗 Live Demo
 [Click to view the deployed app](https://funny-duckanoo-25cfaa.netlify.app/)
 
-_Replace this link with your real Netlify link_
-
 ## 🛠️ Installation
 
 To run locally:
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/jayjadhav114/task-tracker.git
+```bash
+git clone https://github.com/jayjadhav114/task-tracker.git
+cd task-tracker
+npm install
+npm start
+
+###  Screenshots
+
+###  Light mode
+![Light mode](public/screenshots/light-mode.png)
+
+###  Dark mode
+![Dark mode](public/screenshots/dark-mode.png)
